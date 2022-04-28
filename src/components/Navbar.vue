@@ -58,7 +58,9 @@ export default {
 .navbar {
   padding: 0;
   background-color: $basic-color-2;
-
+  position: fixed;
+  top: 0px;
+  width: 100%;
   .container-fluid {
     padding: 0;
     font-family: "Montserrat";
