@@ -1,8 +1,24 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+/* import the fontawesome core */
+import { library } from "@fortawesome/fontawesome-svg-core";
 
-Vue.config.productionTip = false
+/* import specific icons */
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
+/* import font awesome icon component */
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+/* add icons to the library */
+library.add(faSearch);
+
+/* add font awesome icon component */
+Vue.component("font-awesome-icon", FontAwesomeIcon);
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");
