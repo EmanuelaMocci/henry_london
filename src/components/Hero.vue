@@ -10,6 +10,7 @@
               Henry London
             </h1>
             <h5>An estimable experience in the modern collection house</h5>
+            <button>Discover</button>
           </div>
         </div>
       </div>
@@ -38,12 +39,13 @@ export default {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 90vh;
+        height: 80vh;
         width: 100%;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 70px;
         .text {
           color: white;
           text-align: center;
@@ -62,6 +64,22 @@ export default {
           h5 {
             font-family: "Montserrat";
             font-size: 12px;
+          }
+          button {
+            border: 1px solid $bg-logo;
+            color: $bg-logo;
+            background-color: transparent;
+            font-family: "Miller";
+            font-size: 18px;
+            padding: 15px 100px;
+            margin-top: 50px;
+            transition: 0.5s;
+
+            &:hover {
+              background-color: #c6b5a1;
+              border: 1px solid #c6b5a1;
+              color: white;
+            }
           }
         }
       }
