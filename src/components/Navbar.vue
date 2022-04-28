@@ -77,7 +77,7 @@ export default {
       ul {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         li {
           font-size: 13px;
           min-width: 50px;
@@ -99,7 +99,7 @@ export default {
           background-color: transparent;
           border-bottom: 1px solid black;
           border-radius: 0;
-          //   width: 50%;
+          width: 50%;
           min-width: 50%;
           padding-right: 0;
           margin-left: 10px;
@@ -109,7 +109,7 @@ export default {
           background-color: transparent;
           font-size: 15px;
           margin-bottom: -20px;
-          margin-right: 30px;
+          // margin-right: 100px;
         }
       }
     }
@@ -160,13 +160,12 @@ export default {
   }
   form {
     margin: 0 50px;
-    .form-control {
-      width: 100%;
-    }
+    display: flex;
+    justify-content: center;
   }
   ul {
-    // width: 100%;
     margin-top: 50px;
+
     li {
       text-align: center;
     }
