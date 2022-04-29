@@ -15,7 +15,7 @@
             pleasure of the moment, so blinded by desire
           </p>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 rigth-text">
+        <div class="col-12 col-md-6 col-lg-6">
           <p>
             But I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
@@ -38,10 +38,20 @@ export default {
 <style lang="scss" scoped>
 @import "../style/partials/variables.scss";
 
-.container-fluid {
-  font-family: "Miller";
-  width: 90%;
+@mixin centered {
+  max-width: 85%;
   margin: auto;
+}
+@mixin description {
+  color: $basic-color-3;
+  font-family: "Merriweather";
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.container-fluid {
+  font-family: $font1;
+  @include centered;
   padding: 40px 0;
 
   h2 {
@@ -50,11 +60,11 @@ export default {
   }
 
   p {
-    color: $basic-color-3;
-    font-family: "Merriweather";
-    letter-spacing: 0.5px;
-    font-size: 14px;
-    line-height: 30px;
+    @include description;
+    padding-left: 10px;
   }
+}
+.row > * {
+  padding: 0;
 }
 </style>
