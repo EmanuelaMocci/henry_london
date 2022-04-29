@@ -6,13 +6,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 /* import specific icons */
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* add icons to the library */
-library.add(faSearch);
+library.add(faSearch, faAngleRight);
 
 /* add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
