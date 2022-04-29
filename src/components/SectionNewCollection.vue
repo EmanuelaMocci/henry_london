@@ -1,8 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-lg-6 d-flex justify-content-end image">
-        <img src="../assets/img/collection.jpg" alt="" />
+      <div class="col-xs-12 col-lg-6 d-flex justify-content-end">
+        <div class="image">
+          <img src="../assets/img/collection.jpg" alt="" />
+        </div>
       </div>
       <div class="col-xs-12 col-lg-6 rigth-text">
         <h4>LONDON COLLECTION SEASON</h4>
@@ -45,7 +47,8 @@ export default {
   letter-spacing: 0.5px;
   font-size: 14px;
   line-height: 30px;
-  width: 60%;
+  min-width: 50%;
+  max-width: 60%;
   padding-top: 50px;
 }
 @mixin button {
@@ -101,7 +104,7 @@ export default {
   padding-top: 30px;
 }
 
-$breakpoint-ipad: 992px;
+$breakpoint-ipad: 990px;
 
 @media screen and (max-width: $breakpoint-ipad) {
   .rigth-text {

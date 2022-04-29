@@ -12,7 +12,9 @@
         <button>View</button>
       </div>
       <div class="col-xs-12 col-lg-6 d-flex justify-content-end">
-        <img src="../assets/img/store.jpg" alt="" />
+        <div class="image">
+          <img src="../assets/img/store.jpg" alt="" />
+        </div>
       </div>
     </div>
   </div>
