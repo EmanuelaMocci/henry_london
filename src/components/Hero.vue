@@ -71,6 +71,27 @@ export default {
 @import "../style/partials/variables.scss";
 @import "../style/app.scss";
 
+@mixin collection-title {
+  font-family: "Montserrat-bold";
+  font-size: 13px;
+  letter-spacing: 2.5px;
+}
+@mixin button {
+  border: 1px solid $bg-logo;
+  color: $bg-logo;
+  background-color: transparent;
+  font-family: $font1;
+  font-size: 18px;
+  padding: 15px 100px;
+  transition: 0.5s;
+  margin-top: 50px;
+}
+@mixin button-hover {
+  background-color: $button-color;
+  border: 1px solid $button-color;
+  color: $basic-color-1;
+}
+
 .row > * {
   padding: 0;
 }
@@ -92,34 +113,23 @@ export default {
           color: $basic-color-1;
           text-align: center;
           h1 {
-            font-family: "Miller";
+            font-family: $font1;
             font-size: 9vmin;
             margin: 40px 0;
             word-spacing: 5px;
           }
           h4 {
-            font-family: "Montserrat-bold";
-            font-size: 13px;
-            letter-spacing: 2.5px;
+            @include collection-title;
           }
           h5 {
             font-family: "Montserrat";
             font-size: 12px;
           }
           button {
-            border: 1px solid $bg-logo;
-            color: $bg-logo;
-            background-color: transparent;
-            font-family: "Miller";
-            font-size: 18px;
-            padding: 15px 100px;
-            transition: 0.5s;
-            margin-top: 50px;
+            @include button;
 
             &:hover {
-              background-color: $button-color;
-              border: 1px solid $button-color;
-              color: $basic-color-1;
+              @include button-hover;
             }
           }
         }
@@ -156,7 +166,7 @@ export default {
         .carousel-text {
           position: absolute;
           z-index: 1;
-          font-family: "Miller";
+          font-family: $font1;
           top: 30px;
           left: 20px;
           color: $basic-color-1;
