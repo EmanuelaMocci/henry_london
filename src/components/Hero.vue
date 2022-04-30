@@ -56,6 +56,7 @@
             <font-awesome-icon icon="fas fa-angle-right" />
           </button>
         </div>
+        <!-- /slider -->
       </div>
     </div>
   </div>

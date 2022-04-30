@@ -3,6 +3,8 @@
     <SectionHistory />
     <SectionTemporaryStore />
     <SectionNewCollection />
+    <SectionLabStudio />
+    <SectionDiscover />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import SectionHistory from "./SectionHistory.vue";
 import SectionTemporaryStore from "./SectionTemporaryStore.vue";
 import SectionNewCollection from "./SectionNewCollection.vue";
+import SectionLabStudio from "./SectionLabStudio.vue";
+import SectionDiscover from "./SectionDiscover.vue";
 
 export default {
   name: "Main",
@@ -17,6 +21,8 @@ export default {
     SectionHistory,
     SectionTemporaryStore,
     SectionNewCollection,
+    SectionLabStudio,
+    SectionDiscover,
   },
 };
 </script>

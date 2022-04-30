@@ -1,7 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-lg-6 d-flex justify-content-end">
+      <div
+        class="col-xs-12 col-lg-6 d-flex justify-content-end image-container"
+      >
         <div class="image">
           <img src="../assets/img/collection.jpg" alt="" />
         </div>
@@ -110,7 +112,7 @@ $breakpoint-ipad: 990px;
   .rigth-text {
     order: 1;
   }
-  .image {
+  .image-container {
     order: 2;
   }
 }
