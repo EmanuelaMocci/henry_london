@@ -44,7 +44,7 @@ export default {
 }
 @mixin description {
   color: $basic-color-3;
-  font-family: $font4;
+  font-family: $font2;
   letter-spacing: 0.5px;
   font-size: 14px;
   line-height: 30px;
