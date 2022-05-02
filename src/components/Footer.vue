@@ -59,12 +59,18 @@
         </div>
       </div>
     </div>
+    <Copyright />
   </div>
 </template>
 
 <script>
+import Copyright from "./Copyright.vue";
+
 export default {
   name: "Footer",
+  components: {
+    Copyright,
+  },
 };
 </script>
 
@@ -80,7 +86,7 @@ export default {
   @include centered;
   background-color: #333333;
   color: white;
-  padding-bottom: 100px;
+  padding: 0;
   .text {
     h2 {
       font-family: "Montserrat-bold";
@@ -110,5 +116,6 @@ export default {
 }
 .width {
   width: 90%;
+  padding-bottom: 100px;
 }
 </style>
