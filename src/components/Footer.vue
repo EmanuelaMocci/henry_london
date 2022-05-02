@@ -51,7 +51,7 @@
           <div class="col">
             <ul class="right">
               <li>T. +39 392 9133937</li>
-              <li>M. info@watch-lab.it</li>
+              <li>M. <span> info@watch-lab.it</span></li>
               <li class="styled">FACEBOOK</li>
               <li class="styled">INSTAGRAM</li>
             </ul>
@@ -103,6 +103,11 @@ export default {
       font-family: $font1;
       color: $button-color;
       line-height: 40px;
+      span {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 0.5px;
+      }
     }
     .styled {
       font-family: $font3;
