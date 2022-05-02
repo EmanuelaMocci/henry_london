@@ -5,7 +5,7 @@
         <h2
           data-aos="fade-down"
           data-aos-duration="1500"
-          data-aos-delay="600"
+          data-aos-delay="500"
           data-aos-once="true"
         >
           History and <br />
@@ -17,7 +17,7 @@
         class="row justify-content-between"
         data-aos="fade-down"
         data-aos-duration="1500"
-        data-aos-delay="700"
+        data-aos-delay="600"
         data-aos-once="true"
       >
         <div class="col-12 col-md-6 col-lg-5">

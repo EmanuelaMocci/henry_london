@@ -39,28 +39,27 @@
         </div>
 
         <!-- slider -->
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-          <!-- The slideshow/carousel -->
+        <div id="demo" class="carousel slide" data-interval="false">
+          <!-- The slideshow -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="../assets/img/factory.jpg"
-                alt="Los Angeles"
+                alt="Man working in the factory with a big machine in white and black colors"
                 class="d-block w-100"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/img/factory2.webp"
-                alt="Chicago"
+                alt="Old Henry London watch in black and white colors"
                 class="d-block w-100"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/img/factory4.jpg"
-                alt="New York"
+                alt="Woman woking in the factory in black and white colors"
                 class="d-block w-100"
               />
             </div>

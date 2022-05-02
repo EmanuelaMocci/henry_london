@@ -5,7 +5,10 @@
         class="col-xs-12 col-lg-6 d-flex justify-content-end image-container"
       >
         <div class="image">
-          <img src="../assets/img/collection.jpg" alt="" />
+          <img
+            src="../assets/img/collection.jpg"
+            alt="Mountain landscape with a big lake, big house and some trees"
+          />
         </div>
       </div>
       <div class="col-xs-12 col-lg-6 rigth-text">

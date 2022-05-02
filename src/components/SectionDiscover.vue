@@ -3,7 +3,10 @@
     <div class="row">
       <div class="col-sm-12 col-md-6 image-container">
         <div class="image">
-          <img src="../assets/img/groom.jpg" alt="" />
+          <img
+            src="../assets/img/groom.jpg"
+            alt="White and black colors image with a groom watching his future wife behind the door"
+          />
         </div>
         <div class="text">
           <h4>INSTAGRAM</h4>
@@ -16,16 +19,28 @@
       <div class="col-sm-12 col-md-6 container-img mt-4 mt-md-0">
         <div class="row g-0 row-cols-2">
           <div class="col-6">
-            <img src="../assets/img/london2.jpg" alt="" />
+            <img
+              src="../assets/img/london2.jpg"
+              alt="Image with vintage car on the road in a sunny day"
+            />
           </div>
           <div class="col-6">
-            <img src="../assets/img/watch-grid.jpeg" alt="" />
+            <img
+              src="../assets/img/watch-grid.jpeg"
+              alt="Close image of Henry London watch with christmas lights on the background"
+            />
           </div>
           <div class="col-6">
-            <img src="../assets/img/love.jpeg" alt="" />
+            <img
+              src="../assets/img/love.jpeg"
+              alt="Image of two Henry London watches worn by a girl and a boy with red roses on the side"
+            />
           </div>
           <div class="col-6">
-            <img src="../assets/img/watch-grid5.gif" alt="" />
+            <img
+              src="../assets/img/watch-grid5.gif"
+              alt="Image of an elegant man waring an Henry London watch"
+            />
           </div>
         </div>
       </div>

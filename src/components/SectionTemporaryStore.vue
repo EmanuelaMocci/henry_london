@@ -13,7 +13,11 @@
       </div>
       <div class="col-xs-12 col-lg-6 d-flex justify-content-end">
         <div class="image">
-          <img src="../assets/img/store.jpg" alt="" />
+          <img
+            src="../assets/img/store.jpg"
+            alt="Top part of a
+            skyscraper white clean lightblue sky"
+          />
         </div>
       </div>
     </div>
