@@ -4,13 +4,30 @@
       <div class="col hero-container">
         <div class="hero">
           <div class="text">
-            <h4>LONDON COLLECTION SEASON</h4>
-            <h1 class="title">
+            <h4
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
+              LONDON COLLECTION SEASON
+            </h4>
+            <h1
+              class="title"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-delay="700"
+            >
               New Selection Of <br />
               Henry London
             </h1>
-            <h5>An estimable experience in the modern collection house</h5>
-            <button>Discover</button>
+            <h5
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-delay="900"
+            >
+              An estimable experience in the modern collection house
+            </h5>
+            <button data-aos="fade-right">Discover</button>
           </div>
         </div>
         <!-- slider -->

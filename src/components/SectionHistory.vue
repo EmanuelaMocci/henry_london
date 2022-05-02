@@ -2,12 +2,24 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <h2>
+        <h2
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+          data-aos-once="true"
+        >
           History and <br />
           Patriarcal season
         </h2>
       </div>
-      <div class="row justify-content-between">
+
+      <div
+        class="row justify-content-between"
+        data-aos="fade-down"
+        data-aos-duration="1500"
+        data-aos-delay="700"
+        data-aos-once="true"
+      >
         <div class="col-12 col-md-6 col-lg-5">
           <p>
             On the other hand, we denounce with righteous indignation and

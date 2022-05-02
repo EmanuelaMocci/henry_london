@@ -2,11 +2,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-lg-12 col-xl-6 gap-2">
-        <h2>
+        <h2 data-aos="fade-down" data-aos-duration="1500" data-aos-delay="700">
           Press from <br />
           Watch Lab Studio
         </h2>
-        <p>
+        <p data-aos="fade-down" data-aos-duration="1500" data-aos-delay="900">
           On the other hand, we denounce with righteous indignation and dislike
           men who are so gebuiled and demoralized by the charms of pleasure of
           the moment, so blinded by desirem that they cannot foresee the pain

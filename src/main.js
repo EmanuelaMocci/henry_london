@@ -2,6 +2,8 @@ import Vue from "vue";
 import App from "./App.vue";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -25,4 +27,7 @@ Vue.config.productionTip = false;
 
 new Vue({
   render: (h) => h(App),
+  mounted() {
+    AOS.init();
+  },
 }).$mount("#app");
