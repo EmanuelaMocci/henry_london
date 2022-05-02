@@ -64,10 +64,10 @@ export default {
   z-index: 2;
   .container-fluid {
     padding: 0;
-    font-family: "Montserrat";
+    font-family: $font4;
     .navbar-brand {
       background-color: $bg-logo;
-      font-family: "Montserrat-bold";
+      font-family: $font3;
       color: $basic-color-1;
       letter-spacing: 2px;
       padding: 15px;
@@ -100,7 +100,7 @@ export default {
         .form-control {
           border: none;
           background-color: transparent;
-          border-bottom: 1px solid black;
+          border-bottom: 1px solid $basic-color-6;
           border-radius: 0;
           width: 50%;
           min-width: 50%;
@@ -112,7 +112,6 @@ export default {
           background-color: transparent;
           font-size: 15px;
           margin-bottom: -20px;
-          // margin-right: 100px;
         }
       }
     }
@@ -121,7 +120,6 @@ export default {
 .nav-item::before {
   content: "";
   position: absolute;
-  //   bottom: -17px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -129,7 +127,6 @@ export default {
   opacity: 0;
   transition: all 0.3s;
   border-top-width: 2px;
-  //   border-bottom-width: 3px;
   border-bottom-width: 2px;
   border-top-style: solid;
   border-bottom-style: solid;
@@ -157,7 +154,9 @@ export default {
 }
 
 // media query
-@media (max-width: 991px) {
+$breakpoint-ipad: 991px;
+
+@media (max-width: $breakpoint-ipad) {
   .menu {
     margin-bottom: 50px;
   }

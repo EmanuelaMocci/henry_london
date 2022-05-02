@@ -30,7 +30,7 @@ export default {
   margin: auto;
 }
 @mixin collection-title {
-  font-family: "Montserrat-bold";
+  font-family: $font3;
   font-size: 13px;
   letter-spacing: 2.5px;
 }
@@ -44,7 +44,7 @@ export default {
 .container-fluid {
   @include centered;
   @include centered-text;
-  color: white;
+  color: $basic-color-1;
   text-align: center;
   margin-top: 50px;
   background-image: url(../assets/img/desk2.jpg);
@@ -67,20 +67,20 @@ export default {
     justify-content: space-between;
     input {
       background: transparent;
-      border: 1px solid white;
+      border: 1px solid $basic-color-1;
       padding: 10px 15px;
       width: 85%;
       outline: none;
-      color: white;
+      color: $basic-color-1;
     }
     ::placeholder {
-      color: white;
+      color: $basic-color-1;
       font-family: $font1;
     }
     button {
-      border: 1px solid white;
+      border: 1px solid $basic-color-1;
       background: transparent;
-      color: white;
+      color: $basic-color-1;
       padding: 10px 15px;
     }
   }

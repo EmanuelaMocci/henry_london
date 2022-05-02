@@ -84,12 +84,12 @@ export default {
 
 .container-fluid {
   @include centered;
-  background-color: #333333;
-  color: white;
+  background-color: $basic-color-5;
+  color: $basic-color-1;
   padding: 0;
   .text {
     h2 {
-      font-family: "Montserrat-bold";
+      font-family: $font3;
       color: $basic-color-1;
       letter-spacing: 2px;
       font-size: 4vmin;
@@ -105,7 +105,7 @@ export default {
       line-height: 40px;
     }
     .styled {
-      font-family: "Montserrat-bold";
+      font-family: $font3;
       font-size: 13px;
       letter-spacing: 2.5px;
     }

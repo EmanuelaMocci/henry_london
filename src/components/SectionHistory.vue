@@ -20,14 +20,14 @@
         data-aos-delay="600"
         data-aos-once="true"
       >
-        <div class="col-12 col-md-6 col-lg-5">
+        <div class="col-12 col-md-6 col-lg-5 p-0">
           <p>
             On the other hand, we denounce with righteous indignation and
             dislike men who are beguiled and demoralized by the charms of
             pleasure of the moment, so blinded by desire
           </p>
         </div>
-        <div class="col-12 col-md-6 col-lg-6">
+        <div class="col-12 col-md-6 col-lg-6 p-0">
           <p>
             But I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
@@ -56,7 +56,7 @@ export default {
 }
 @mixin description {
   color: $basic-color-3;
-  font-family: "Merriweather";
+  font-family: $font2;
   letter-spacing: 0.5px;
   font-size: 14px;
   line-height: 30px;
@@ -75,8 +75,5 @@ export default {
     @include description;
     padding-left: 10px;
   }
-}
-.row > * {
-  padding: 0;
 }
 </style>

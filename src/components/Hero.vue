@@ -41,21 +41,21 @@
               <img
                 src="../assets/img/watch3.webp"
                 class="d-block w-100"
-                alt="..."
+                alt="Close image of Henry London watch in red and gold colors"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/img/watch4.webp"
                 class="d-block w-100"
-                alt="..."
+                alt="Close image of Henry London watch in gold color with small diamonds all around the watch case"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/img/watch5.jpeg"
                 class="d-block w-100"
-                alt="..."
+                alt="Close image of Henry London watch in gold color"
               />
             </div>
           </div>
@@ -90,7 +90,7 @@ export default {
 @import "../style/app.scss";
 
 @mixin collection-title {
-  font-family: "Montserrat-bold";
+  font-family: $font3;
   font-size: 13px;
   letter-spacing: 2.5px;
 }
@@ -140,7 +140,7 @@ export default {
             @include collection-title;
           }
           h5 {
-            font-family: "Montserrat";
+            font-family: $font4;
             font-size: 12px;
           }
           button {
@@ -169,7 +169,7 @@ export default {
           opacity: 1;
           top: 65%;
           right: 50px;
-          font-family: "Montserrat-bold";
+          font-family: $font3;
           span {
             letter-spacing: 2.5px;
             transition: all 0.5s;

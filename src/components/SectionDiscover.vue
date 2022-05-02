@@ -62,7 +62,7 @@ export default {
   margin: auto;
 }
 @mixin collection-title {
-  font-family: "Montserrat-bold";
+  font-family: $font3;
   font-size: 13px;
   letter-spacing: 2.5px;
 }
@@ -95,7 +95,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: $basic-color-1;
   z-index: 1;
 }
 h4 {

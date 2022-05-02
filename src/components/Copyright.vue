@@ -19,7 +19,7 @@ export default {
 @import "../style/partials/variables.scss";
 
 .copywright {
-  background-color: #303030;
+  background-color: $basic-color-6;
   padding: 30px 80px;
   color: $button-color;
   font-family: $font1;

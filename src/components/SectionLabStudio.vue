@@ -86,13 +86,13 @@ export default {
 }
 @mixin description {
   color: $basic-color-3;
-  font-family: "Merriweather";
+  font-family: $font2;
   letter-spacing: 0.5px;
   font-size: 14px;
   line-height: 30px;
 }
 @mixin collection-title {
-  font-family: "Montserrat-bold";
+  font-family: $font3;
   font-size: 13px;
   letter-spacing: 2.5px;
 }
