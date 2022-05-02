@@ -127,7 +127,7 @@ export default {
   }
 }
 .carousel {
-  top: 68%;
+  top: 65%;
   right: 50%;
   transform: translateY(-50%);
   position: absolute;
@@ -154,6 +154,7 @@ export default {
   .carousel-control-next {
     color: black;
     padding-top: 200px;
+    right: 170px;
   }
   .carousel-control-prev {
     color: black;
@@ -197,7 +198,7 @@ $breakpoint-screen: 1400px; //xl
     }
   }
 }
-// min 1199 a max 1400
+// from min 1199 to max 1400
 @media only screen and (min-width: $breakpoint-pc) and (max-width: $breakpoint-screen) {
   .text {
     top: 50px;
