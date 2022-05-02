@@ -1,13 +1,17 @@
 <template>
   <div class="container-fluid">
-    <h2>Get in Touch</h2>
-    <h4>
-      DISCOVER MORE ABOUT NEWS, <br />
-      EXCLUSIVE EVENTS AND DISCOUNT
-    </h4>
-    <div class="input">
-      <input type="text" name="text" placeholder="type your email" />
-      <button>ok</button>
+    <div class="row">
+      <div class="col">
+        <h2>Get in Touch</h2>
+        <h4>
+          DISCOVER MORE ABOUT NEWS, <br />
+          EXCLUSIVE EVENTS AND DISCOUNT
+        </h4>
+        <div class="input">
+          <input type="text" name="text" placeholder="type your email" />
+          <button>ok</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -42,7 +46,7 @@ export default {
   @include centered-text;
   color: white;
   text-align: center;
-  margin: 50px auto;
+  margin-top: 50px;
   background-image: url(../assets/img/desk2.jpg);
   background-position: center;
   background-size: cover;
@@ -58,14 +62,14 @@ export default {
     margin-bottom: 25px;
   }
   .input {
-    width: 350px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     input {
       background: transparent;
       border: 1px solid white;
       padding: 10px 15px;
-      width: 280px;
+      width: 85%;
       outline: none;
       color: white;
     }

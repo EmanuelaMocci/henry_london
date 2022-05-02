@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">WATCH/LAB</a>
+      <div class="navbar-brand">WATCH/LAB</div>
       <button
         class="navbar-toggler"
         type="button"
